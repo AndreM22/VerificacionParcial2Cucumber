@@ -7,7 +7,7 @@ Feature: Project
     When envio POST request a la /api/user.json con el body
     """
     {
-      "Email":"nuevo_usuario17@api.com",
+      "Email":"nuevo_usuario19@api.com",
       "Password":"12345",
       "FullName":"Andre Machicao"
     }
@@ -17,7 +17,7 @@ Feature: Project
     """
     {
         "Id": "IGNORE",
-        "Email": "nuevo_usuario17@api.com",
+        "Email": "nuevo_usuario19@api.com",
         "FullName": "Andre Machicao",
         "TimeZone":"IGNORE",
         "IsProUser": false,
@@ -37,11 +37,9 @@ Feature: Project
     When envio PUT request a la /api/user/0.json con el body
     """
     {
-      "Email":"New_nuevo_usuario17@api.com"
+      "Email":"New_nuevo_usuario19@api.com"
     }
     """
     Then el codigo de respuesta deberia ser 200
     
-    And el atributo Email deberia ser New_nuevo_usuario17@api.com
-    
-    
+    And el atributo Email deberia ser New_nuevo_usuario19@api.com
