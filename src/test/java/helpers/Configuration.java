@@ -8,7 +8,7 @@ public class Configuration {
     //Nuevo Usuario
     //Se deben actualizar los campos newUser y newUserEmail cada que se crea un usuario
     public static String fullName="Andre Machicao";
-    public static String newUser="nuevo_usuario19@api.com";
-    public static String newEmail="New_nuevo_usuario19@api.com";
+    public static String newUser="nuevo_usuario20@api.com";
+    public static String newEmail="New_nuevo_usuario20@api.com";
     public static String newPwd="12345";
 }
